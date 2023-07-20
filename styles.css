@@ -1,0 +1,135 @@
+
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a base font size and font-family */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+/* Add some spacing between elements */
+header {
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+/* Style the form labels */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style the form inputs and buttons */
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Style the output div */
+#output {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Add some layout to the footer */
+footer {
+  margin-top: 50px;
+  background-color: #f4f4f4;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Additional styles for professional appearance */
+
+/* Container to center the content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header text styles */
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Styling for navigation links */
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+/* Styling for form fieldset and legend */
+fieldset {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Styling for the output text */
+#output {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+/* Footer text styles */
+footer p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* Footer link styles */
+footer a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  color: #0056b3;
+}
